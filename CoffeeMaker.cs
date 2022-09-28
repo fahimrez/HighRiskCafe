@@ -33,6 +33,9 @@ namespace HighRiskCafe
         private void DisplayCoffeeTypes()
         {
             Console.WriteLine();
+            Console.WriteLine("What coffee type do you want?");
+            Console.WriteLine("We have: ");
+            Console.WriteLine();
             foreach(string coffeeType in coffeeTypes)
             {
                 Console.WriteLine(coffeeType);
